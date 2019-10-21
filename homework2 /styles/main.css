@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+    font-family:Arial, Verdana, sans-serif;
+}
+
+/* float the image from header to the left*/
+header img {
+    float: left;
+    margin-right: 1em;
+}
+
+/*id attribute to manipulate the way the text looks;
+the first heading h2 from the header changed as follows*/
+#shapeup {
+    font-size: 2em;
+    font-style: italic;
+    color: steelblue;
+    text-shadow:  2px 2px ;
+    text-indent: 4%;
+}
+main { clear: left; }
+/* font size for the second heading and indentation */
+header h3{
+    font-size: 1.5em;
+    text-indent: 4%;
+}
+
+/*class attribute to define equal styles for elements with the same class name.
+From section: h1, h2 and from aside h2 headings*/
+.shapeup{
+    font-size: 1.5em;
+}
+
+/*class attribute to define equal styles for elements with the same class name.
+From section all h3 headings */
+.bestfit{
+    font-size: 1.2em;
+}
+
+/*style for the links that are within the section element */
+section a:link, section a:visited {
+    color: maroon
+}
+
+/*style for section links when mouse is over them */
+section a:hover, section a:focus {
+    color: steelblue;
+}
+
+/*style for the links within aside */
+aside a:link, aside a:visited {
+    color:steelblue;
+    font-weight: bold;
+}
+
+/*style for aside links when mouse is over them */
+aside a:hover, aside a:focus {
+    color: maroon;
+}
+
+/*increased the space between the list items*/
+aside ul li {
+    margin: 20px 0;
+}
+
+/* Reduced the font size for the footer and center it*/
+footer p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
